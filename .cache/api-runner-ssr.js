@@ -1,4 +1,10 @@
 var plugins = [{
+      plugin: require('/Users/a.martinez/Desktop/gatsby-projects/slices/gatsby/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
+      options: {"plugins":[]},
+    },{
+      plugin: require('/Users/a.martinez/Desktop/gatsby-projects/slices/gatsby/node_modules/gatsby-source-sanity/gatsby-ssr'),
+      options: {"plugins":[],"projectId":"1fzxsso7","dataset":"production","watchMode":true,"token":"skgrlWQmJRyiGkI7RRtXM7eMN0kwgKRXNqvnTDHuFSuZCAVFr1g3ZHHHFotgXyB91mzs3vle1jgLKhxm6lE30UKSaB9J4M5AJeuNqkANr3OSa2y4fpas43XcvuINAeXU0X8feb0gZC6EZD3cpODxxxouezbtA40pWqmWCAnjnOJpi1TkoZ0p"},
+    },{
       plugin: require('/Users/a.martinez/Desktop/gatsby-projects/slices/gatsby/gatsby-ssr'),
       options: {"plugins":[]},
     }]
