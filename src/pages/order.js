@@ -1,9 +1,11 @@
 import React from 'react';
+import SEO from '../components/SEO';
 
 export default function OrderPage() {
+  const [name, setName] = useState('');
   return (
     <>
-      <p>OrderPage</p>
+      <SEO title="Order a Pizza!" />
     </>
   );
 }
